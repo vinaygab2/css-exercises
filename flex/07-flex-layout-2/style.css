@@ -8,6 +8,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
 }
 
 .footer {
@@ -20,10 +25,59 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-area {
+  display: flex;
+}
+
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 16px;
+}
+
+li {
+  margin-bottom: 16px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  padding: 20px;
+}
+
+.card {
+  padding: 48px;
+  width: 300px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
